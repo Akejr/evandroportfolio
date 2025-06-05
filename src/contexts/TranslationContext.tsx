@@ -20,7 +20,7 @@ const translations = {
     // Hero
     'hero.title': 'Projetando experiências digitais incríveis e desenvolvendo interfaces que funcionam de verdade.',
     'hero.subtitle': 'bonitas, intuitivas e acessíveis.',
-    'hero.contact': 'Contact me',
+    'hero.contact': 'Contactar',
     
     // About
     'about.title': 'Sobre mim',

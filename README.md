@@ -2,6 +2,8 @@
 
 Portfolio pessoal de Evandro Casanova, Desenvolvedor Web e UI Designer.
 
+🔗 **Repositório:** [https://github.com/Akejr/evandroportfolio](https://github.com/Akejr/evandroportfolio)
+
 ## 🚀 Tecnologias
 
 - **React** - Biblioteca JavaScript para construção de interfaces
@@ -23,10 +25,10 @@ Portfolio pessoal de Evandro Casanova, Desenvolvedor Web e UI Designer.
 
 ```bash
 # Clone o repositório
-git clone <repository-url>
+git clone https://github.com/Akejr/evandroportfolio.git
 
 # Navegue até o diretório
-cd evandro-portfolio
+cd evandroportfolio
 
 # Instale as dependências
 npm install
