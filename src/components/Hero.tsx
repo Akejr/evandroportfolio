@@ -16,6 +16,7 @@ const Hero: React.FC = () => {
             src="/images/Profile.JPEG" 
             alt="Evandro Casanova" 
             className="w-full h-full object-cover"
+            onContextMenu={(e) => e.preventDefault()}
             style={{
               transform: 'scale(3.0)',
               objectPosition: 'center -10%'

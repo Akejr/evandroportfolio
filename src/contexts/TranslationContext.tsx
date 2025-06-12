@@ -40,6 +40,10 @@ const translations = {
     
     // Education
     'education.title': 'Educação',
+    'education.uistart.degree': 'Especialização UI Start',
+    'education.uistart.location': 'São Paulo, Brasil',
+    'education.uistart.period': 'Setembro 2024',
+    'education.uistart.description': 'Especialização em design de interfaces modernas e experiência do usuário. Foco em metodologias ágeis, design thinking e prototipagem de alta fidelidade. Desenvolvimento de habilidades práticas em ferramentas de design e frameworks modernos.',
     'education.uiux.degree': 'Pós-graduação em Web UI/UX',
     'education.uiux.location': 'Lisboa, Portugal',
     'education.uiux.period': 'Março 2023',
@@ -114,6 +118,10 @@ const translations = {
     
     // Education
     'education.title': 'Education',
+    'education.uistart.degree': 'UI Start Specialization',
+    'education.uistart.location': 'São Paulo, Brazil',
+    'education.uistart.period': 'September 2024',
+    'education.uistart.description': 'Specialization in modern interface design and user experience. Focus on agile methodologies, design thinking and high-fidelity prototyping. Development of practical skills in design tools and modern frameworks.',
     'education.uiux.degree': 'Postgraduate in Web UI/UX',
     'education.uiux.location': 'Lisbon, Portugal',
     'education.uiux.period': 'March 2023',
@@ -188,6 +196,10 @@ const translations = {
     
     // Education
     'education.title': 'Educación',
+    'education.uistart.degree': 'Especialización UI Start',
+    'education.uistart.location': 'São Paulo, Brasil',
+    'education.uistart.period': 'Septiembre 2024',
+    'education.uistart.description': 'Especialización en diseño de interfaces modernas y experiencia del usuario. Enfoque en metodologías ágiles, design thinking y prototipado de alta fidelidad. Desarrollo de habilidades prácticas en herramientas de diseño y frameworks modernos.',
     'education.uiux.degree': 'Posgrado en Web UI/UX',
     'education.uiux.location': 'Lisboa, Portugal',
     'education.uiux.period': 'Marzo 2023',

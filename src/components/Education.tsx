@@ -9,6 +9,14 @@ const Education: React.FC = () => {
   const educations = [
     {
       id: 1,
+      institution: 'UI Start',
+      degree: t('education.uistart.degree'),
+      location: t('education.uistart.location'),
+      period: t('education.uistart.period'),
+      description: t('education.uistart.description')
+    },
+    {
+      id: 2,
       institution: 'Universidade de Lisboa',
       degree: t('education.uiux.degree'),
       location: t('education.uiux.location'),
@@ -16,7 +24,7 @@ const Education: React.FC = () => {
       description: t('education.uiux.description')
     },
     {
-      id: 2,
+      id: 3,
       institution: 'Universidade de Luanda',
       degree: t('education.cs.degree'),
       location: t('education.cs.location'),
