@@ -1,9 +1,23 @@
-import React from 'react';
-import { Mail, Github, Linkedin, Instagram } from 'lucide-react';
+/*
+TESTADOR DE FOTO DE PERFIL - INSTRUÇÕES PARA REATIVAR:
+
+1. Descomente o botão no componente da foto (linha ~22-30)
+2. Descomente o modal ProfileImageTester (linha ~75-80)
+3. O testador aparecerá quando passar o mouse sobre a foto de perfil
+4. Use os controles para ajustar zoom, posição e selecionar imagem
+5. Copie o CSS gerado e aplique nos arquivos Hero.tsx e About.tsx
+
+Componente ProfileImageTester localizado em: src/components/ProfileImageTester.tsx
+*/
+
+import React, { useState } from 'react';
+import { Mail, Github, Linkedin, Instagram, Settings } from 'lucide-react';
 import { useTranslation } from '../contexts/TranslationContext';
+import ProfileImageTester from './ProfileImageTester';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
+  const [showProfileTester, setShowProfileTester] = useState(false);
 
   return (
     <section id="home" className="min-h-screen pt-20 flex flex-col justify-center items-center text-center px-4 relative">
@@ -11,17 +25,44 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-radial from-cyan-500/10 via-transparent to-transparent"></div>
       
       <div className="relative z-10">
-        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25">
+        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25 group">
           <img 
             src="/images/Profile.JPEG" 
             alt="Evandro Casanova" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover select-none"
             onContextMenu={(e) => e.preventDefault()}
+            onDragStart={(e) => e.preventDefault()}
+            loading="eager"
+            decoding="sync"
             style={{
-              transform: 'scale(3.0)',
-              objectPosition: 'center -10%'
-            }}
+              transform: 'scale(1)',
+              objectPosition: '0% 33%',
+              imageRendering: 'auto',
+              filter: 'grayscale(100%) contrast(1.05) brightness(1.02)',
+              backfaceVisibility: 'hidden',
+              WebkitBackfaceVisibility: 'hidden',
+              userSelect: 'none',
+              WebkitUserSelect: 'none',
+              WebkitTouchCallout: 'none',
+              WebkitUserDrag: 'none',
+              KhtmlUserSelect: 'none',
+              MozUserSelect: 'none',
+              msUserSelect: 'none',
+              pointerEvents: 'none'
+            } as React.CSSProperties}
           />
+          {/* 
+          TESTADOR DE FOTO DE PERFIL - OCULTO
+          Para reativar o testador de foto de perfil, descomente o código abaixo:
+          
+          <button
+            onClick={() => setShowProfileTester(true)}
+            className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-full"
+            title="Ajustar foto de perfil"
+          >
+            <Settings size={24} className="text-white" />
+          </button>
+          */}
         </div>
       </div>
 
@@ -71,6 +112,16 @@ const Hero: React.FC = () => {
           </a>
         </div>
       </div>
+
+      {/* 
+      TESTADOR DE FOTO DE PERFIL - OCULTO
+      Para reativar, descomente o código abaixo:
+      
+      <ProfileImageTester 
+        isVisible={showProfileTester}
+        onClose={() => setShowProfileTester(false)}
+      />
+      */}
     </section>
   );
 };

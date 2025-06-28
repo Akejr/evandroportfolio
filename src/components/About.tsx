@@ -48,15 +48,30 @@ const About: React.FC = () => {
           </div>
           <div className="lg:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#0bbbd0] mx-auto relative shadow-2xl shadow-cyan-500/25">
-              <img 
+                            <img 
                 src="/images/Profile.JPEG" 
                 alt="Evandro Casanova" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover select-none"
                 onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
+                loading="eager"
+                decoding="sync"
                 style={{
-                  transform: 'scale(3.0)',
-                  objectPosition: 'center -10%'
-                }}
+                  transform: 'scale(1)',
+                  objectPosition: '0% 33%',
+                  imageRendering: 'auto',
+                  filter: 'grayscale(100%) contrast(1.05) brightness(1.02)',
+                  backfaceVisibility: 'hidden',
+                  WebkitBackfaceVisibility: 'hidden',
+                  userSelect: 'none',
+                  WebkitUserSelect: 'none',
+                  WebkitTouchCallout: 'none',
+                  WebkitUserDrag: 'none',
+                  KhtmlUserSelect: 'none',
+                  MozUserSelect: 'none',
+                  msUserSelect: 'none',
+                  pointerEvents: 'none'
+                } as React.CSSProperties}
               />
             </div>
           </div>
