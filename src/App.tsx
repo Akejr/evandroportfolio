@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { TranslationProvider } from './contexts/TranslationContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -25,6 +26,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <Analytics />
       </div>
     </TranslationProvider>
   );
