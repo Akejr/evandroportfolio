@@ -54,6 +54,8 @@ const translations = {
     'education.cs.description': 'Formação sólida em fundamentos da computação, algoritmos, estruturas de dados e desenvolvimento de software. Participação em projetos acadêmicos e iniciação científica com foco em aplicações web e mobile.',
     
     // Projects descriptions
+    'projects.soupiloto.description': 'Sistema criado para escola de aviação, desenhando a arquitetura da jornada de aluno e a interface de conversão. Desenvolvi módulos que explicam o método de ensino, exibem diferenciais e capturam leads: simuladores de voo, gestão de instrutores, trilhas teóricas, mentoria 1:1, depoimentos e preparo para exames regulatórios. O foco foi transformar tráfego em matrículas por meio de estrutura lógica, automação e comunicação orientada a performance.',
+    'projects.apostai.description': 'ApostAI é uma plataforma que usa Inteligência Artificial para transformar dados esportivos em insights para apostas. Desenvolvi mais de 300 algoritmos analíticos (modelos preditivos, avaliação de odds, padrões de desempenho, mercado e risco), gerando previsões e recomendações em tempo real. O projeto combina automação, estatística avançada e machine learning para aumentar precisão e vantagem no longo prazo.',
     'projects.dotangola.description': 'DOT Angola é a maior plataforma de entretenimento digital de Angola, especializada na venda de gift cards nacionais e internacionais. Com uma interface intuitiva e responsiva, a plataforma foi projetada para proporcionar uma experiência de compra simples, rápida e segura, conectando os usuários aos seus serviços e jogos digitais favoritos com apenas alguns cliques.',
     'projects.minimalist.description': 'minimalist.fit é um tracker de dieta completo, desenvolvido para oferecer uma experiência simples, limpa e altamente funcional. A plataforma permite o controle eficiente de peso, alimentação e treinos, além de oferecer calendários interativos, gráficos de progresso e lembretes personalizados — tudo com uma interface minimalista e centrada no usuário.',
     'projects.navegante.description': 'Estudo de caso completo para uma plataforma de navegação, focando na experiência do usuário e interface intuitiva. Projeto desenvolvido com metodologias de UX Research e Design Thinking.',
@@ -71,6 +73,11 @@ const translations = {
     
     // Footer
     'footer.text': 'Projetado e Desenvolvido por Evandro Casanova',
+    
+    // Project Card
+    'projectCard.viewProject': 'Ver Projeto',
+    'projectCard.tapToReadMore': 'Toque para ler mais',
+    'projectCard.tapToClose': 'Toque para fechar',
     
     // Highlighted words
     'highlight.evandro': 'Evandro Casanova',
@@ -132,6 +139,8 @@ const translations = {
     'education.cs.description': 'Solid formation in computer fundamentals, algorithms, data structures and software development. Participation in academic projects and scientific initiation with focus on web and mobile applications.',
     
     // Projects descriptions
+    'projects.soupiloto.description': 'System created for aviation school, designing the student journey architecture and conversion interface. I developed modules that explain the teaching method, display differentials and capture leads: flight simulators, instructor management, theoretical tracks, 1:1 mentoring, testimonials and preparation for regulatory exams. The focus was to transform traffic into enrollments through logical structure, automation and performance-oriented communication.',
+    'projects.apostai.description': 'ApostAI is a platform that uses Artificial Intelligence to transform sports data into betting insights. I developed over 300 analytical algorithms (predictive models, odds evaluation, performance patterns, market and risk), generating real-time predictions and recommendations. The project combines automation, advanced statistics and machine learning to increase accuracy and long-term advantage.',
     'projects.dotangola.description': 'DOT Angola is the largest digital entertainment platform in Angola, specialized in the sale of national and international gift cards. With an intuitive and responsive interface, the platform was designed to provide a simple, quick and secure purchase experience, connecting users to their favorite digital services and games with just a few clicks.',
     'projects.minimalist.description': 'minimalist.fit is a complete diet tracker, developed to offer a simple, clean and highly functional experience. The platform allows efficient weight control, nutrition and workouts, as well as providing interactive calendars, progress graphs and personalized reminders — all with a minimalist interface and centered on the user.',
     'projects.navegante.description': 'Complete case study for a navigation platform, focusing on user experience and intuitive interface. Project developed with UX Research and Design Thinking methodologies.',
@@ -149,6 +158,11 @@ const translations = {
     
     // Footer
     'footer.text': 'Designed and Developed by Evandro Casanova',
+    
+    // Project Card
+    'projectCard.viewProject': 'View Project',
+    'projectCard.tapToReadMore': 'Tap to read more',
+    'projectCard.tapToClose': 'Tap to close',
     
     // Highlighted words
     'highlight.evandro': 'Evandro Casanova',
@@ -210,6 +224,8 @@ const translations = {
     'education.cs.description': 'Formación sólida en fundamentos de la computación, algoritmos, estructuras de datos y desarrollo de software. Participación en proyectos académicos y de inicio científico con enfoque en aplicaciones web y móviles.',
     
     // Projects descriptions
+    'projects.soupiloto.description': 'Sistema creado para escuela de aviación, diseñando la arquitectura del viaje del estudiante y la interfaz de conversión. Desarrollé módulos que explican el método de enseñanza, muestran diferenciales y capturan leads: simuladores de vuelo, gestión de instructores, rutas teóricas, mentoría 1:1, testimonios y preparación para exámenes regulatorios. El enfoque fue transformar tráfico en matrículas a través de estructura lógica, automatización y comunicación orientada al rendimiento.',
+    'projects.apostai.description': 'ApostAI es una plataforma que usa Inteligencia Artificial para transformar datos deportivos en insights para apuestas. Desarrollé más de 300 algoritmos analíticos (modelos predictivos, evaluación de cuotas, patrones de rendimiento, mercado y riesgo), generando predicciones y recomendaciones en tiempo real. El proyecto combina automatización, estadística avanzada y machine learning para aumentar precisión y ventaja a largo plazo.',
     'projects.dotangola.description': 'DOT Angola es la mayor plataforma de entretenimiento digital de Angola, especializada en la venta de tarjetas regalo nacionales e internacionales. Con una interfaz intuitiva y responsiva, la plataforma fue diseñada para proporcionar una experiencia de compra simple, rápida y segura, conectando a los usuarios a sus servicios y juegos digitales favoritos con solo unos clics.',
     'projects.minimalist.description': 'minimalist.fit es un seguimiento de dieta completo, desarrollado para ofrecer una experiencia simple, limpia y altamente funcional. La plataforma permite el control eficiente del peso, la alimentación y el ejercicio, así como proporcionar calendarios interactivos, gráficos de progreso y recordatorios personalizados — todo con una interfaz minimalista y centrada en el usuario.',
     'projects.navegante.description': 'Estudio de caso completo para una plataforma de navegación, centrándose en la experiencia del usuario y la interfaz intuitiva. Proyecto desarrollado con metodologías de Investigación de UX y Pensamiento de Diseño.',
@@ -227,6 +243,11 @@ const translations = {
     
     // Footer
     'footer.text': 'Diseñado y Desarrollado por Evandro Casanova',
+    
+    // Project Card
+    'projectCard.viewProject': 'Ver Proyecto',
+    'projectCard.tapToReadMore': 'Toca para leer más',
+    'projectCard.tapToClose': 'Toca para cerrar',
     
     // Highlighted words
     'highlight.evandro': 'Evandro Casanova',

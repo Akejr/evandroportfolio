@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10">
         <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25 group">
           <img 
-            src="/images/Profile.JPEG" 
+            src="/images/foto nova perfil.jpeg" 
             alt="Evandro Casanova" 
             className="w-full h-full object-cover select-none"
             onContextMenu={(e) => e.preventDefault()}
@@ -35,10 +35,9 @@ const Hero: React.FC = () => {
             loading="eager"
             decoding="sync"
             style={{
-              transform: 'scale(1)',
-              objectPosition: '0% 33%',
+              transform: 'scale(1.3)',
+              objectPosition: 'center',
               imageRendering: 'auto',
-              filter: 'grayscale(100%) contrast(1.05) brightness(1.02)',
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
               userSelect: 'none',
@@ -51,6 +50,7 @@ const Hero: React.FC = () => {
               pointerEvents: 'none'
             } as React.CSSProperties}
           />
+          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent pointer-events-none"></div>
           {/* 
           TESTADOR DE FOTO DE PERFIL - OCULTO
           Para reativar o testador de foto de perfil, descomente o código abaixo:

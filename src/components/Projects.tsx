@@ -11,6 +11,24 @@ const Projects: React.FC = () => {
   const devProjects = [
     {
       id: 1,
+      title: 'Sou Piloto',
+      description: t('projects.soupiloto.description'),
+      image: '/images/soupiloto.png',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      link: 'https://soupiloto.vercel.app/',
+      github: undefined
+    },
+    {
+      id: 2,
+      title: 'ApostAI',
+      description: t('projects.apostai.description'),
+      image: '/images/ApostaAI.png',
+      tags: ['Machine Learning', 'Python', 'Data Analysis'],
+      link: 'https://apost-ai.vercel.app/',
+      github: undefined
+    },
+    {
+      id: 3,
       title: 'DOT Angola',
       description: t('projects.dotangola.description'),
       image: '/images/dotangola.png',
@@ -19,7 +37,7 @@ const Projects: React.FC = () => {
       github: 'https://github.com/Akejr/DOT-Angola'
     },
     {
-      id: 2,
+      id: 4,
       title: 'Minimalist.fit',
       description: t('projects.minimalist.description'),
       image: '/images/minimalistfit.png',

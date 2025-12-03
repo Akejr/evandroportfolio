@@ -49,7 +49,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#0bbbd0] mx-auto relative shadow-2xl shadow-cyan-500/25">
                             <img 
-                src="/images/Profile.JPEG" 
+                src="/images/foto nova perfil.jpeg" 
                 alt="Evandro Casanova" 
                 className="w-full h-full object-cover select-none"
                 onContextMenu={(e) => e.preventDefault()}
@@ -57,10 +57,9 @@ const About: React.FC = () => {
                 loading="eager"
                 decoding="sync"
                 style={{
-                  transform: 'scale(1)',
-                  objectPosition: '0% 33%',
+                  transform: 'scale(1.3)',
+                  objectPosition: 'center',
                   imageRendering: 'auto',
-                  filter: 'grayscale(100%) contrast(1.05) brightness(1.02)',
                   backfaceVisibility: 'hidden',
                   WebkitBackfaceVisibility: 'hidden',
                   userSelect: 'none',
@@ -73,6 +72,7 @@ const About: React.FC = () => {
                   pointerEvents: 'none'
                 } as React.CSSProperties}
               />
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent pointer-events-none"></div>
             </div>
           </div>
         </div>
