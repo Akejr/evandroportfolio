@@ -57,3 +57,34 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #0ea5e9, #0bbbd0);
 }
+/* Slider styles */
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #0bbbd0;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px rgba(11, 187, 208, 0.3);
+}
+
+.slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #0bbbd0;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 10px rgba(11, 187, 208, 0.3);
+}
+
+.slider::-webkit-slider-track {
+  background: #374151;
+  border-radius: 5px;
+}
+
+.slider::-moz-range-track {
+  background: #374151;
+  border-radius: 5px;
+}
