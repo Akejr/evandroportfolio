@@ -60,7 +60,7 @@ marginTop: '${marginTop}px'`;
                 style={{ marginTop: `${marginTop}px` }}
               >
                 <img 
-                  src="/images/foto nova perfil.jpg" 
+                  src="/images/foto nova perfil.png" 
                   alt="Evandro Casanova" 
                   className="w-full h-full object-cover"
                   style={{

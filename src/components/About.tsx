@@ -49,7 +49,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/3">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#0bbbd0] mx-auto relative shadow-2xl shadow-cyan-500/25">
                             <img 
-                src="/images/foto nova perfil.jpg" 
+                src="/images/foto nova perfil.png" 
                 alt="Evandro Casanova" 
                 className="w-full h-full object-cover select-none"
                 onContextMenu={(e) => e.preventDefault()}
@@ -58,7 +58,7 @@ const About: React.FC = () => {
                 decoding="sync"
                 style={{
                   transform: 'scale(1)',
-                  objectPosition: '54% 34%',
+                  objectPosition: '38% 13%',
                   imageRendering: 'auto',
                   backfaceVisibility: 'hidden',
                   WebkitBackfaceVisibility: 'hidden',

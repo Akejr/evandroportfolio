@@ -13,7 +13,6 @@ Componente ProfileImageTester localizado em: src/components/ProfileImageTester.t
 import React from 'react';
 import { Mail, Github, Linkedin, Instagram } from 'lucide-react';
 import { useTranslation } from '../contexts/TranslationContext';
-import PhotoFilterTester from './PhotoFilterTester';
 
 const Hero: React.FC = () => {
   const { t } = useTranslation();
@@ -24,9 +23,9 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-radial from-cyan-500/10 via-transparent to-transparent"></div>
       
       <div className="relative z-10">
-        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25" style={{ marginTop: '-5px' }}>
+        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25" style={{ marginTop: '0px' }}>
           <img 
-            src="/images/foto nova perfil.jpg" 
+            src="/images/foto nova perfil.png" 
             alt="Evandro Casanova" 
             className="w-full h-full object-cover select-none"
             onContextMenu={(e) => e.preventDefault()}
@@ -35,7 +34,7 @@ const Hero: React.FC = () => {
             decoding="sync"
             style={{
               transform: 'scale(1)',
-              objectPosition: '54% 34%',
+              objectPosition: '38% 13%',
               imageRendering: 'auto',
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
