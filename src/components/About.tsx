@@ -32,7 +32,7 @@ const About: React.FC = () => {
         </div>
         
         <div className="flex flex-col lg:flex-row gap-12 items-center">
-          <div className="lg:w-2/3">
+          <div className="w-full">
             <p className="mb-6 text-lg leading-relaxed" 
                dangerouslySetInnerHTML={{ __html: createHighlightedText(t('about.text1')) }}
             />
@@ -45,43 +45,6 @@ const About: React.FC = () => {
             <p className="text-xl font-medium mt-8">
               {t('about.cta')}
             </p>
-          </div>
-          <div className="lg:w-1/3">
-            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-[#0bbbd0] mx-auto relative shadow-2xl shadow-cyan-500/25">
-                            <img 
-                src="/images/foto nova perfil.png" 
-                alt="Evandro Casanova" 
-                className="w-full h-full object-cover select-none"
-                onContextMenu={(e) => e.preventDefault()}
-                onDragStart={(e) => e.preventDefault()}
-                loading="eager"
-                decoding="sync"
-                style={{
-                  transform: 'scale(1)',
-                  objectPosition: '38% 13%',
-                  imageRendering: 'auto',
-                  backfaceVisibility: 'hidden',
-                  WebkitBackfaceVisibility: 'hidden',
-                  userSelect: 'none',
-                  WebkitUserSelect: 'none',
-                  WebkitTouchCallout: 'none',
-                  WebkitUserDrag: 'none',
-                  KhtmlUserSelect: 'none',
-                  MozUserSelect: 'none',
-                  msUserSelect: 'none',
-                  pointerEvents: 'none'
-                } as React.CSSProperties}
-              />
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-transparent pointer-events-none"></div>
-              <div 
-                className="absolute inset-0 pointer-events-none"
-                style={{
-                  background: '#0bbbd0',
-                  opacity: 0.35,
-                  mixBlendMode: 'soft-light'
-                } as React.CSSProperties}
-              ></div>
-            </div>
           </div>
         </div>
       </div>
