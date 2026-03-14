@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             decoding="sync"
             style={{
               transform: 'scale(1)',
-              objectPosition: '38% 13%',
+              objectPosition: '40% 25%',
               imageRendering: 'auto',
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
