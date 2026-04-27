@@ -11,12 +11,13 @@ const Projects: React.FC = () => {
   const devProjects = [
     {
       id: 1,
-      title: 'Sou Piloto',
-      description: t('projects.soupiloto.description'),
-      image: '/images/soupiloto.png',
+      title: 'DOT Angola',
+      description: t('projects.dotangola.description'),
+      image: '/images/dotangola.png',
       tags: ['React', 'TypeScript', 'Tailwind CSS'],
-      link: 'https://soupiloto.vercel.app/',
-      github: undefined
+      link: 'https://www.dotangola.com',
+      github: 'https://github.com/Akejr/DOT-Angola',
+      country: 'Angola'
     },
     {
       id: 2,
@@ -25,25 +26,48 @@ const Projects: React.FC = () => {
       image: '/images/ApostaAI.png',
       tags: ['Machine Learning', 'Python', 'Data Analysis'],
       link: 'https://apost-ai.vercel.app/',
-      github: undefined
+      github: undefined,
+      country: 'Portugal'
     },
     {
       id: 3,
-      title: 'DOT Angola',
-      description: t('projects.dotangola.description'),
-      image: '/images/dotangola.png',
-      tags: ['React', 'TypeScript', 'Tailwind CSS'],
-      link: 'https://www.dotangola.com',
-      github: 'https://github.com/Akejr/DOT-Angola'
+      title: 'WePink Angola',
+      description: t('projects.wepinkangola.description'),
+      image: '/images/wepinkangola.png',
+      tags: ['E-commerce', 'Payments', 'Admin Dashboard', 'React'],
+      link: 'https://wepink-angola.vercel.app/',
+      github: undefined,
+      country: 'Angola'
     },
     {
       id: 4,
+      title: 'BOBO BIRD',
+      description: t('projects.bobobird.description'),
+      image: '/images/bobobird.jpg',
+      tags: ['E-commerce', 'Payments API', 'Dropshipping', 'React'],
+      link: 'https://www.oficialbobobird.com.br/',
+      github: undefined,
+      country: 'Brasil'
+    },
+    {
+      id: 5,
+      title: 'Sou Piloto',
+      description: t('projects.soupiloto.description'),
+      image: '/images/soupiloto.png',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      link: 'https://soupiloto.vercel.app/',
+      github: undefined,
+      country: 'Brasil'
+    },
+    {
+      id: 6,
       title: 'Minimalist.fit',
       description: t('projects.minimalist.description'),
       image: '/images/minimalistfit.png',
       tags: ['React', 'TypeScript', 'Vite', 'Supabase'],
       link: 'https://diettracker-five.vercel.app/',
-      github: 'https://github.com/Akejr/diettracker'
+      github: 'https://github.com/Akejr/diettracker',
+      country: 'Brasil'
     }
   ];
 

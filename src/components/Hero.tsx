@@ -23,18 +23,18 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-radial from-cyan-500/10 via-transparent to-transparent"></div>
       
       <div className="relative z-10">
-        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25" style={{ marginTop: '0px' }}>
+        <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#0bbbd0] mb-8 mx-auto relative shadow-2xl shadow-cyan-500/25">
           <img 
             src="/images/foto nova perfil.png" 
             alt="Evandro Casanova" 
-            className="w-full h-full object-cover select-none"
+            className="w-full h-full select-none"
             onContextMenu={(e) => e.preventDefault()}
             onDragStart={(e) => e.preventDefault()}
             loading="eager"
             decoding="sync"
             style={{
-              transform: 'scale(1)',
-              objectPosition: '40% 25%',
+              objectFit: 'contain',
+              transform: 'scale(1.6) translate(-6%, 14%)',
               imageRendering: 'auto',
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',

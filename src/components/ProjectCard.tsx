@@ -10,6 +10,7 @@ interface Project {
   tags: string[];
   link: string;
   github?: string;
+  country?: string;
 }
 
 interface ProjectCardProps {
@@ -54,6 +55,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <div className="md:hidden absolute bottom-2 right-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded-full text-[10px] text-cyan-300 border border-cyan-500/30">
             {isExpanded ? t('projectCard.tapToClose') : t('projectCard.tapToReadMore')}
           </div>
+
+          {/* Badge de país */}
+          {project.country && (
+            <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] text-white border border-white/20 shadow-lg flex items-center gap-1.5">
+              <span>{project.country}</span>
+            </div>
+          )}
         </div>
         
         {/* Content com espaçamento reduzido */}
